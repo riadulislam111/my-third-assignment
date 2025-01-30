@@ -2,7 +2,13 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+        fontFamily: {
+            sora: ['Sora', 'sans-serif'],
+        adlam: ['Adlam Display', 'sans-serif'],
+          },
+      },
     },
     plugins: [],
   }
+  
