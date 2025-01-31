@@ -16,45 +16,48 @@
 <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- navbar  -->
-    <nav class="flex justify-between bg-orange-50 bottom-1 md:">
-<div class="flex gap-2">
-    <img width=40 src="./assets/logo-header.png"/> 
-    <h3>Browse<span class="text">4</span>Pets</h3>
-</div>
-<div>
+    <header class="grid">
+<!-- navbar  -->
+<nav class="flex justify-between bg-orange-50 bottom-1 md:">
+    <div class="flex gap-2">
+        <img width=40 src="./assets/logo-header.png"/> 
+        <h3>Browse<span class="text">4</span>Pets</h3>
+    </div>
+    <div>
+        <div>
+            <i class="fa-regular fa-bell"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="font-sora text-2xl">
+            <a href="">Find a pet</a>
+        <a href="">Breeds</a>
+        <a href="">Contact us</a>
+        </div>
+    </div>
     <div>
         <i class="fa-regular fa-bell"></i>
-    <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button class="btn  ">Login</button>
+        <button class="btn bg-amber-300 animate-bounce">Register</button>
     </div>
-    <div class="font-sora text-2xl">
-        <a href="">Find a pet</a>
-    <a href="">Breeds</a>
-    <a href="">Contact us</a>
+        </nav>
+       
+    <!-- pamper your pet  -->
+    <section>
+    <div class="flex ml-20 my-7">
+        <div class="">
+            <h1 class="font-adlam text-2xl font-bold">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+            <p class="text-gray-400">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="btn bg-amber-300 my-4 font-sora ">Find a pet</button>
+        </div>
+        <div class="width=40">
+            <img src="./assets/cat-big.png" alt="">
+        </div>
     </div>
-</div>
-<div>
-    <i class="fa-regular fa-bell"></i>
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <button class="btn  ">Login</button>
-    <button class="btn bg-amber-300 animate-bounce">Register</button>
-</div>
-    </nav>
-    <!-- main section  -->
-<!-- pamper your pet  -->
-<section>
-<div class="flex ml-20 my-7">
-    <div class="">
-        <h1 class="font-adlam text-2xl font-bold">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
-        <p class="text-gray-400">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-        <button class="btn bg-amber-300 my-4 font-sora ">Find a pet</button>
-    </div>
-    <div class="width=40">
-        <img src="./assets/cat-big.png" alt="">
-    </div>
-</div>
+    </header>
+    <main class="grid grid-cols-none">
 <!-- card section  -->
- <div>
+<div>
     <h2>Browse By Categories</h2>
  </div>
         <!-- card 1 -->
@@ -205,9 +208,56 @@
          </div> 
 </section>
 
+<div class="flex-row justify-center">
+    <h1>Everyday low Price</h1>
+    <div class="bg-emerald-100">
+<p>Under Price</p>
+<h1>Pet Grooming Mitt</h1>
+<p>(Easy Hair Removal)</p>
+<h1>$7.99</h1>
+<div>
+    <img src="./assets/cute-pet-small.png" alt="">
+</div>
+    </div>
+    <div class="bg-yellow-100">
+<h1>T-Shirt for Dogs</h1>
+<h2>$7.99</h2>
+<div>
+    <img src="./assets/dog-cartoon.png" alt="">
+</div>
+    </div>
+</div>
+<!-- get powsome news -->
+<div>
+<div>
+    <img src="" alt="">
+</div>
+<h1>Get Pawsome News!</h1>
+<p>Exclusive training tips, ticks, product deals and more.</p>
+<input class="placeholder:required" type="email" name="Enter Mail" id="">
+<button class="btn bg-amber-300">Subscribe</button>
+</div>
+    </main>
+
 <!-- footer section  -->
-<footer>
-    
+<footer class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 bg-yellow-100 ">
+    <div>
+        <i><img src="" alt=""></i>
+        <h3>Browse4Pets</h3>
+        <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+    </div>
+    <div>
+        <a href="">Find a pet</a>
+        <a href="">Breeds</a>
+        <a href="">Contact us</a>
+    </div>
+    <div>
+        <p>Follow Us</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
 </footer>
 </body>
 </html>
